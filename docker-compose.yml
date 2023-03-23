@@ -23,6 +23,7 @@ services:
     build:
       context: .
     command: python3 script.py
+    restart: always
     env_file:
       - .env
     depends_on:
