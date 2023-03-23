@@ -10,7 +10,7 @@
 
 ### Установка
 
-> Для развертывания и тестирования проекта необходимо установить [Docker](https://docs.docker.com/engine/install/)
+> Для развертывания и тестирования проекта необходимо установить [docker](https://docs.docker.com/engine/install/) и [docker-compose](https://docs.docker.com/compose/install/other/)
 
 - Клонируйте репозиторий и перейдите в папку проекта:
 ```
