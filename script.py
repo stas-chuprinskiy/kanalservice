@@ -67,8 +67,8 @@ def get_sheet_table_objects(sheet_table):
         try:
             sheet_table_obj = SheetTable(id=row[0], order_num=row[1],
                                          usd_price=row[2], supply_date=row[3])
-        except ValidationError:
-            logger.error(f'ValidationError while convert {row} to SheetTable',
+        except Exception as err:
+            logger.error(f'Error while convert {row} to SheetTable: {err}',
                          exc_info=True)
         else:
             sheet_table_objects.append(sheet_table_obj)
