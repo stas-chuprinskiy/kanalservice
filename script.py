@@ -131,7 +131,9 @@ def main():
             upsert_table(db_session, sheet_table_objects, usd_rate)
 
             objects = get_should_be_notified(db_session)
-            [send_tlg_message(bot, TLG_CLIENT_ID, str(obj)) for obj in objects]
+            if objects:
+                for obj in objects:
+                    send_tlg_message(bot, TLG_CLIENT_ID, str(obj))
         except CustomError as err:
             text = f'Script error: {err}'
             send_tlg_message(bot, TLG_ADMIN_ID, text)
