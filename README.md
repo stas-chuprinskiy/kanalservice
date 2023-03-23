@@ -1,5 +1,7 @@
 # Тестовое задание ООО Каналсервис
 
+Соответствующий гугл документ [тут](https://docs.google.com/spreadsheets/d/1L2u--y05cou36Ny_CPsSvG7P0i1YbP2PEb-Rn-3xBx8/edit?usp=share_link)
+
 Реализованный скрипт:
 
 * Получает данные из Google документа при помощи Google API
