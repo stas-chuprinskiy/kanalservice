@@ -25,14 +25,14 @@
 
 ### Технологии
 
-google-api-python-client==2.82.0
-httplib2==0.22.0
-oauth2client==4.1.3
-pydantic==1.10.6
-requests==2.28.2
-python-telegram-bot==13.7
-SQLAlchemy==2.0.7
-psycopg2-binary==2.9.5
++ google-api-python-client==2.82.0
++ httplib2==0.22.0
++ oauth2client==4.1.3
++ pydantic==1.10.6
++ requests==2.28.2
++ python-telegram-bot==13.7
++ SQLAlchemy==2.0.7
++ psycopg2-binary==2.9.5
 
 ### Установка
 
