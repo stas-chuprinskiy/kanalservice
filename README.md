@@ -46,6 +46,8 @@ docker-compose stop
 docker-compose up --build -d
 ```
 
+Частотой обновлений (в секундах) можно управлять с помощью константы `RETRY_TIME` в файле `script.py`.
+
 ### Автор
 
 *Чупринский Станислав*
